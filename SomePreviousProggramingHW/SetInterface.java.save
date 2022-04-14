@@ -1,0 +1,21 @@
+//
+//	Name:		Barrientos, Joshua
+//	Homework:	1
+//	Due:		??
+//	Course:		cs-2400-02
+//
+//	Description:
+//			SetInterface.......
+import java.util.iterable
+
+public Interface SetInterface<T> extends Iterable<T>{
+	public boolean contains(T element);
+	public boolean remove(T element);
+	public boolean add(T element);
+	public int length();
+	public boolean set(LinkedSet set);
+	public boolean equals(LinkedSet set);
+	public Set<T> union(LinkedSet set);
+	public String ToString();
+
+}

@@ -1,0 +1,40 @@
+Script started on 2022-01-27 20:23:26-08:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="157" LINES="66"]
+]0;jlbarrientos@abbott:~[01;32mjlbarrientos@abbott[01;34m ~ $[00m ls
+ AirportApp.class                 ElementTester.class                      PerfectShuffle.class          StackInterface.class
+ AirportApp.java                  ElementTester.java                       PerfectShuffle.java           StackInterface.java
+ ArrayBag.class                   Expression.class                         PeriodicTable.class          'Vertex$1.class'
+ ArrayBag.java                    Expression.java                          PeriodicTable.java           'Vertex$Edge.class'
+ BagInterface.class               ExpressionCheck.class                    PeriodicTableApp.class       'Vertex$NeighborIterator.class'
+ BagInterface.java                ExpressionCheck.java                     PeriodicTableApp.java        'Vertex$WeightIterator.class'
+ [0m[01;34mCS2600[0m                           ExpressionTest.class                     PeriodicTableOriginal.class   Vertex.class
+ CardGame.class                   ExpressionTest.java                      PeriodicTableOriginal.java    Vertex.java
+ CardGame.java                    GraphInterface.class                     [00;32mProj3report.pdf[0m               VertexInterface.class
+ CargoShip.class                  GraphInterface.java                      Rational.class                VertexInterface.java
+ CargoShip.java                   GuessingGame.java                        Rational.java                 airports.csv
+ CruiseShip.class                'LinkedSet$LinkedSetIterator.class'       Rational.java.save            distances.csv
+ CruiseShip.java                 'LinkedSet$Node.class'                    RationalApp.class             [01;31mhw1.zip[0m
+ DLLCheck.class                   LinkedSet.class                          RationalApp.java              [01;31mhw3.zip[0m
+ DLLCheck.java                    LinkedSet.java                           SetCheck.class                [01;31mhw5.zip[0m
+'DirectedGraph$1.class'          'LinkedStack$LinkedStackIterator.class'   SetCheck.java                 [01;31mhw6.zip[0m
+'DirectedGraph$EntryPQ.class'    'LinkedStack$Node.class'                  SetInterface.class            [01;31mproj1.zip[0m
+ DirectedGraph.class              LinkedStack.class                        SetInterface.java             [01;31mproj2.zip[0m
+ DirectedGraph.java               LinkedStack.java                         SetInterface.java.save        [01;31mproj3.zip[0m
+'DoublyLinkedList$DLNode.class'   ListInterface.class                      Ship.class                    [01;31mproj4.zip[0m
+ DoublyLinkedList.class           ListInterface.java                       Ship.java                     [00;32mq.txt[0m
+ DoublyLinkedList.java            Name.class                               ShipDemo.class                typescript
+ Element.class                    Name.java                                ShipDemo.java
+ Element.java                     PT.java                                  ShipDemo.java.save
+]0;jlbarrientos@abbott:~[01;32mjlbarrientos@abbott[01;34m ~ $[00m mkdir sandbox
+]0;jlbarrientos@abbott:~[01;32mjlbarrientos@abbott[01;34m ~ $[00m cd sandbox
+]0;jlbarrientos@abbott:~/sandbox[01;32mjlbarrientos@abbott[01;34m ~/sandbox $[00m ls
+]0;jlbarrientos@abbott:~/sandbox[01;32mjlbarrientos@abbott[01;34m ~/sandbox $[00m echo this is my file. there are many like it but this one is mine > myfile
+]0;jlbarrientos@abbott:~/sandbox[01;32mjlbarrientos@abbott[01;34m ~/sandbox $[00m cat myfile
+this is my file. there are many like it but this one is mine
+]0;jlbarrientos@abbott:~/sandbox[01;32mjlbarrientos@abbott[01;34m ~/sandbox $[00m li[Ks
+myfile
+]0;jlbarrientos@abbott:~/sandbox[01;32mjlbarrientos@abbott[01;34m ~/sandbox $[00m rm myfile
+]0;jlbarrientos@abbott:~/sandbox[01;32mjlbarrientos@abbott[01;34m ~/sandbox $[00m ls
+]0;jlbarrientos@abbott:~/sandbox[01;32mjlbarrientos@abbott[01;34m ~/sandbox $[00m exit
+exit
+
+Script done on 2022-01-27 20:27:53-08:00 [COMMAND_EXIT_CODE="0"]

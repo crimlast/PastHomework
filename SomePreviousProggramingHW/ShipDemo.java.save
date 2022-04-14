@@ -1,0 +1,51 @@
+//
+//	Name:		Barrientos, Joshua
+//	Project: 	4
+//	Due:		December 9, 2019
+//	Course:		CS-1400-02-F19
+//
+//	Description:
+//		A tester program with a main method creating an inventory of ships owned while testing out the Ship class and its subclasses.
+//
+
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.File;
+
+public class ShipDemo
+{
+	public static void main(String[] args) throws Exception
+	{
+	
+		else
+			ArrayList<Ship> inventory = new ArrayList<>();
+			File companyFile = new File("mycompany.dat");
+			Scanner keyboard = new Scanner(companyFile);
+			String name, year;
+			char type;
+			int parameter, cruiseCount, cargoCount;
+			cruiseCount = 0;
+			cargoCount = 0;
+			String companyName = keyboard.next();
+			while (keyboard.hasNext())
+			{
+				name = keyboard.next();
+				type = keyboard.next().charAt(0);
+				year = keyboard.next();
+				parameter = keyboard.nextInt();
+				if('c' == type)
+				{
+					inventory.add(new CruiseShip(name, year, parameter));
+					cruiseCount++;
+				}
+				else if('C' == type)
+				{
+					inventory.add(new CargoShip(name, year, parameter));
+					cargoCount++;
+				}
+			}
+
+
+
+	}
+}
